@@ -1,0 +1,29 @@
+{
+	"name": "test-api-mock",
+	"version": "1.0.0",
+	"description": "",
+	"license": "MIT",
+	"repository": "<%= githubUsername %>/<%= moduleName %>",
+	"author": {
+		"name": "Joost van Dieten",
+		"email": "joost.van.dieten@testassured.nl",
+		"url": "https://www.testassured.nl"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	}
+}
